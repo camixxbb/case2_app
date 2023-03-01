@@ -1,7 +1,6 @@
 {
   "name": "case2-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "author": "",
   "license": "ISC",
@@ -22,5 +21,7 @@
   "devDependencies": {
     "nodemon": "^2.0.20"
   },
-  "type": "module"
+  "type": "module",
+  "keywords": [],
+  "description": ""
 }

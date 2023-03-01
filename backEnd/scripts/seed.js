@@ -12,20 +12,42 @@ const seed = async () => {
     models.forEach(model => model.configurar())
 
     const page = new Page()
-    page.title = 'Sobre'
-    page.text = 'O GameInto é um aplicativo pensando em você gamer que joga diversos jogos diferentes durante o seu dia-a-dia. Já pensou o quão maravilhoso seria ter uma lista de todos os jogos que você já jogou na sua vida? Ou já ter uma lista dos lançamentos do ano que você pretende jogar? O GameInto é o lugar para você criar suas listas de jogos! Não importa o motivo, o GameInto monta para você a sua lista do jeitinho que você quiser!'
+    page.title = 'Conheça o Aplicativo'
+    page.text = 'O GameInto é uma plataforma que armazena inúmeras listas de jogos criadas por empresas e fãs. Quer ver uma lista dos melhores jogos do ano? Sem problemas! No GameInto você encontra não só listas globais como listas de grandes empresas de games, como a Epic Games, e plataformas, como a Steam. É um mundo vasto de infomrações sobre o universo gamer.'
     const pages = [page]
 
     const products = []
-    for (let i=1; i<=4; i++) {
-        const prod = new Product()
-        prod.title = `Produto ${i}`
-        prod.description = `Descrição do produto ${i}`
-        products.push(prod)
+
+    const funcionalidade = [{
+        id: 1,
+        title: 'Listagens oficiais de criadores',
+        description: 'Seja criadores indies, como a 666 Games, ou empresas de renome, como a Eletronic Arts, o GameInto irá armazenar listas oficiais criadas, por esses criadores (rs)!'},
+        {id: 2,
+        title: 'Fórum de debate',
+        description: 'Isso mesmo! Um fórum onde será possível debater sobre as listas e os games que estão bombando no momento.'},
+        {id: 3,
+        title: 'Listas de melhores momentos',
+        description: 'Listas de vídeos de jogadores (amadores e profissionais) poderão ser criadas e favoritadas!'},
+        {id: 4,
+        title: 'Atualização dinâmica',
+        description: 'A API conta com a nossa equipe coruja que a deixa sempre atualizada e de pé para receber, visualizar, atualizar e apagar as suas listas!'},
+        {id: 5,
+        title: 'Conexão com empresas',
+        description: 'Você mais conectado do que nunca com as empresas, agora que poderá encontrar suas listas!'},
+        {id: 6,
+        title: 'Bônus Parceiro',
+        description:'Seja um dos primeiros a receber atualizações com a aquisição de uma chave de administração da API. Coisa chique!'}
+    ]
+    
+    for (let i=0; i< funcionalidade.length; i++) {
+      const prod = new Product()
+       prod.title = funcionalidade[i].title
+      prod.description = funcionalidade[i].description
+      products.push(prod)
     }
 
     const admin = new User()
-    admin.email = "game@into.com"
+    admin.email = "gameintoadm@back.com"
     admin.encryptedPassword = hashSync('12345678', 10)
     const users = [admin]
     

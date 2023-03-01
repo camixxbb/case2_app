@@ -32,7 +32,7 @@ function Menu() {
                 <Navbar.Text style={{
                     color: "pink"
                 }}>
-                    Seu cantinho para organizar sua jogatina!
+                    Seu cantinho gamer!
                 </Navbar.Text>
             </Navbar.Collapse>
         </Container>

@@ -27,7 +27,13 @@ function Contato() {
                     <Form.Label>Mensagem</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Você se interessa em fazer parceria?</option>
+                    <option value="1">Sim! Gostaria de me tornar um parceiro.</option>
+                    <option value="1">Não, obrigada.</option>
+                    </select>
+                    <br />
+                <Button variant="dark" type="submit">
                     Enviar
                 </Button>
             </Form>

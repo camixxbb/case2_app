@@ -13,8 +13,8 @@ function Destaques() {
                             O GameInto é muito fácil de usar! O aplicativo foi pensado como um acessório diário do gamer, trazendo praticidade e conforto.
                         </Card.Text>
                         <br />
-                        <LinkContainer to="/">
-                            <Button variant="dark">Acessar o GameInto</Button>
+                        <LinkContainer to="/sobre">
+                            <Button variant="dark">Conheça o GameInto</Button>
                         </LinkContainer>
                     </Card.Body>
                 </Card>
@@ -41,6 +41,7 @@ function Destaques() {
                         <Card.Text>
                             O GameInto oferece suporte personalizado para você, com exclusividades para quem for parceiro! Entre em contato conosco e fique por dentro de tudo.
                         </Card.Text>
+                        <br />
                         <LinkContainer to="/contato">
                         <Button variant="dark">Entre em contato</Button>
                         </LinkContainer>

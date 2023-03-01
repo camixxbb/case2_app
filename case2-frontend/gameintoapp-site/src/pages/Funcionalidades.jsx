@@ -22,13 +22,13 @@ function Funcionalidades() {
     }, [])
 
     return (
-        <>
+        <div style={{backgroundImage:'url(/public/fundo.png)',backgroundSize:'cover'}}>
         <Banners />
         <Container className="conteudo-margin">
-            <h1>Funcionalidades</h1>
+            <h1 style={{fontFamily:'Climate Crisis'}}>Funcionalidades</h1>
             <ListaFuncionalidades funcionalidades={funcionalidades} />
         </Container>
-        </>
+        </div>
     );
 }
 

@@ -10,9 +10,10 @@ function Contato() {
     }
 
     return (
+        <div style={{backgroundImage:'url(/public/fundo.png)',backgroundSize:'cover'}}>
         <Container className='conteudo-margin'>
-            <h1>Fala com a gente!</h1>
-            <p>Achou o GameInto interessante para você? Entre em contato!</p>
+            <h1 style={{fontFamily:'Climate Crisis'}}>Fala com a gente!</h1>
+            <p style={{fontFamily:'Comfortaa'}}>Achou o GameInto interessante para você? Entre em contato!</p>
 
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="Nome">
@@ -40,6 +41,7 @@ function Contato() {
 
             <Depoimentos />
         </Container>
+        </div>
     );
 }
 

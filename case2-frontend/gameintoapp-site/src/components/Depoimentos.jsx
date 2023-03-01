@@ -4,28 +4,26 @@ import Col from 'react-bootstrap/Col';
 function Depoimentos() {
     return (
         <>
-        <h2 className='mt-3'>Depoimentos</h2>
+        <h2 className='mt-3' style={{fontFamily:'Climate Crisis'}}>Depoimentos</h2>
         <Row className='mt-3'>
             <Col sm="12" md="2" className='text-center'>
-                <img src="https://via.placeholder.com/100/ffd000" alt="Foto do depoimento" className='rounded' />
+                <img src="../public/woony.png" alt="Foto do depoimento" className='rounded' />
             </Col>
             <Col sm="12" md="10">
-                <strong>Depoimento 1</strong>
+                <strong>Woonyoung</strong>
                 <p>
-                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus at voluptate voluptatibus illo ad vel ut numquam, quas sunt hic esse, dolore recusandae est vero quod minima eius repellat."
+                    "Participei dos testes do aplicativo GameInto e estou impressionada com a facilidade do app! É simplesmente incrível! Eu nunca tinha conhecido qualquer aplicativo parecido, me diverti muito no fórum e conheci diversos jogos a partir de listas diferentes!"
                 </p>
             </Col>
         </Row>
         <Row className='mt-3'>
             <Col sm="12" md="2" className='text-center'>
-                <img src="https://via.placeholder.com/100/ffd000" alt="Foto do depoimento 2" className='rounded' />
+                <img src="../public/kylie.png" alt="Foto do depoimento 2" className='rounded' />
             </Col>
             <Col sm="12" md="10">
-                <strong>Depoimento 2</strong>
+                <strong>Kylie Jenner</strong>
                 <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas repellendus at voluptate voluptatibus illo ad vel ut numquam, quas sunt hic esse, dolore recusandae est vero quod minima eius repellat."
+                "Sou parceira do projeto desde do início. O que me deixa mais impressionada no aplicativo é a confiança que a API trás para o seu cliente. Existe um time gigante comprometido com o levantamento e observação da API e eu pude perceber o empenho. As atualizações funcionam direitinho. Não me arrependo de ser uma parceira."
                 </p>
             </Col>
         </Row>        

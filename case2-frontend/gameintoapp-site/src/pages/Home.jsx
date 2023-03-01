@@ -5,13 +5,13 @@ import Banners from '../components/Banners'
 
 function Home() {
     return (
-        <>
+        <div style={{backgroundImage:'url(/public/fundo.png)',backgroundSize:'cover'}}>
             <Banners />
             <Container>
                 <Destaques />
                 <Depoimentos />
             </Container>
-        </>
+        </div>
     );
 }
 

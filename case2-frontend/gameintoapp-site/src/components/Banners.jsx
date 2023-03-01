@@ -12,9 +12,9 @@ function Banners() {
                     <Carousel.Caption>
                         <h5 style={{fontFamily:'Comfortaa'}}>Conheça o GameInto</h5>
                         <p style={{
-                        color: "pink",
+                        color: "#FF66C4",
                         fontFamily:'Climate Crisis'
-                }}>Um app pensado para os gamers!</p>
+                }}>Um app pensado para os gamers</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -24,11 +24,11 @@ function Banners() {
                         alt="Outro slide incrível"
                     />
                     <Carousel.Caption>
-                        <h5 style={{fontFamily:'Comfortaa'}}>Disponível em todas as plataformas</h5>
+                        <h5 style={{fontFamily:'Comfortaa'}}>Isso mesmo que você leu!</h5>
                         <p style={{
-                        color: "pink",
+                        color: "#FF66C4",
                         fontFamily:'Climate Crisis'
-                }}>O app te acompanha no PC, celular ou tablet!</p>
+                }}>O app te acompanha no PC, celular ou tablet</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,7 +40,7 @@ function Banners() {
                     <Carousel.Caption>
                         <h5 style={{fontFamily:'Comfortaa'}}>Contato para parcerias?</h5>
                         <p style={{
-                        color: "pink",
+                        color: "#FF66C4",
                         fontFamily:'Climate Crisis'
                 }}>
                             Entre em contato com a nossa equipe para conversar sobre oportunidades de parceria

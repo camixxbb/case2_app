@@ -18,6 +18,7 @@ Criar o banco de dados
 ```sh
 npm run migrate
 npm run seed
+npm start
 ```
 
 # Comandos necessários para executar o FrontEnd

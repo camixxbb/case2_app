@@ -30,5 +30,3 @@ Caso não reconheça o vite
 ```sh
 npm i vite@latest
 ```
-
-CRUD

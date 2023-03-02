@@ -32,4 +32,3 @@ npm i vite@latest
 ```
 
 CRUD
-COMMIT ON
